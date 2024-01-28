@@ -17,8 +17,8 @@ features: # 可选的
 ---
 
 <div class="button-container" align="center">
-  <a class="become-sponsor" href="/money/m0001/" target="_blank">支持这个项目</a>
-  <a class="become-sponsor" href="https://en.foreseestudio.top/" target="_blank">Visit English Website</a>
+  <a class="become-sponsor" href="/money/m0001/" target="_blank">赞&emsp;助</a>
+  <a class="become-sponsor" href="https://en.foreseestudio.top/" target="_blank">English Website</a>
 </div>
 
 <style>
@@ -50,19 +50,19 @@ features: # 可选的
 
 <br/>
 
-## 🎖 Don't understand? Welcome to our English website.
+## 👋 看不懂中文？快来试试我们的英文网站 👉
+### Can't understand Chinese? Come and try our English website.
 ::: cardList 1
 ```yaml
  - name: English website
-   desc: welcome
+   desc: Click to go to the English website
    link: http://en.foreseestudio.top/
    bgColor: '#f1f1f1'
    textColor: '#2A3344'
 ```
 :::
-<br/>
 
-## 🎉 产品
+## 🚀 产品
 ::: cardImgList 2
 ```yaml
 - img: https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img2/202401280110015.png
@@ -79,15 +79,14 @@ features: # 可选的
   avatar: /img/logo.png # 头像，可选
 ```
 :::
-<br/>
 
-## 🎉赞助与支持
+## 💰 赞助与支持
 ::: cardList 4
 ```yaml
 - name: Openai
   desc: 人工智能
   avatar: https://img.icons8.com/color/48/chatgpt.png # 可选
-  link: https://www.cnblogs.com/miluluyo/ # 可选
+  link: https://openai.com/ # 可选
   bgColor: '#f3f2f1' # 可选，默认var(--bodyBg)。颜色值有#号时请添加单引号
   textColor: '#6854A1' # 可选，默认var(--textColor)
 - name: Microsoft
@@ -129,13 +128,13 @@ features: # 可选的
 - name: X
   desc: 推广平台
   avatar: https://img.icons8.com/color/96/twitterx--v2.png
-  link: https://vercel.com/
+  link: https://twitter.com/
   bgColor: '#f3f2f1' # 可选，默认var(--bodyBg)。颜色值有#号时请添加单引号
   textColor: '#6854A1' # 可选，默认var(--textColor)
 ```
 :::
 
-## 🎉运行
+## 💎 运行
 ::: cardList 5
 ```yaml
 - name: VUE JS
@@ -161,7 +160,6 @@ features: # 可选的
 - name: Github
   desc: 代码服务
   avatar: https://img.icons8.com/color/96/github--v1.png
-  link: https://github.com/
   bgColor: '#f3f2f1' # 可选，默认var(--bodyBg)。颜色值有#号时请添加单引号
   textColor: '#6854A1' # 可选，默认var(--textColor)
 - name: Vercel
@@ -169,10 +167,8 @@ features: # 可选的
   avatar: https://img.icons8.com/color/96/garmin.png
   bgColor: '#f3f2f1' # 可选，默认var(--bodyBg)。颜色值有#号时请添加单引号
   textColor: '#6854A1' # 可选，默认var(--textColor)
-
 ```
 :::
-<br/>
 
 ## ⚡ 反馈与交流
 &emsp;&emsp;在这个快速发展的时代，有效的反馈和开放的交流是推动个人、团队甚至整个组织前进的关键。无论是在工作中还是生活中，良好的沟通都能带来深刻的影响。那么，如何才能实现高效的反馈与交流呢？以下是我们的一些见解和建议。
