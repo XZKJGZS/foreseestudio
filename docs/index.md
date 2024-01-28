@@ -50,8 +50,7 @@ features: # 可选的
 
 <br/>
 
-## 👋 看不懂中文？快来试试我们的英文网站 👉
-### Can't understand Chinese? Come and try our English website.
+## 👋 Can't understand Chinese? Come and try our English website.👉
 ::: cardList 1
 ```yaml
  - name: English website
