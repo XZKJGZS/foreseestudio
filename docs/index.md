@@ -1,9 +1,9 @@
 ---
 home: true
 heroImage: /img/logo.png
-heroText: Foresee Studio
+heroText: 先知科技工作室
 tagline: 绿色 、 共享 、普惠 、包容
-actionText: 与我们同行 →
+actionText: 与我们同行
 actionLink: /about/a0001/
 bannerBg: none # auto => 网格纹背景(有bodyBgImg时无背景)，默认 | none => 无 | '大图地址' | background: 自定义背景样式       提示：如发现文本颜色不适应你的背景时可以到palette.styl修改$bannerTextColor变量
 
@@ -14,81 +14,164 @@ features: # 可选的
     details: 探索未知   期待惊喜
   - title: 案例
     details: 精选案例   启发灵感
-
-# 文章列表显示方式: detailed 默认，显示详细版文章列表（包括作者、分类、标签、摘要、分页等）| simple => 显示简约版文章列表（仅标题和日期）| none 不显示文章列表
-postList: none
 ---
-<p align="center">
-  <a class="become-sponsor" href="/money/m0001/">支持这个项目</a>
-</p>
+
+<div class="button-container" align="center">
+  <a class="become-sponsor" href="/money/m0001/" target="_blank">支持这个项目</a>
+  <a class="become-sponsor" href="https://en.foreseestudio.top/" target="_blank">Visit English Website</a>
+</div>
 
 <style>
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
 .become-sponsor {
-  padding: 8px 20px;
-  display: inline-block;
-  color: #11a8cd;
-  border-radius: 30px;
-  box-sizing: border-box;
-  border: 1px solid #11a8cd;
+  padding: 15px 30px;
+  flex-grow: 1;
+  text-decoration: none;
+  border-radius: 5px; /* 调整这个值以匹配您提供的图片的圆角大小 */
+  font-weight: bold;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #6DAEDB;
+  border: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-in-out;
+}
+
+.become-sponsor:hover {
+  background-color: #59A5D8;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 </style>
 
 <br/>
 
-## 🎖 赞助支持
-::: cardList 4
+## 🎖 Don't understand? Welcome to our English website.
+::: cardList 1
 ```yaml
- - name: John Tao's Blog
-   desc: Stay Hungry. Stay Foolish.
-   link: https://www.draper-crypto.top/
-   bgColor: '#f1f1f1'
-   textColor: '#2A3344'
- - name: Foresee Studio论坛
-   desc: 登高不傲，居低不怨，保持谦卑
-   link: https://www.foreseestudioblog.top/
-   bgColor: '#f1f1f1'
-   textColor: '#2A3344'
- - name: Foresee Studio
-   desc: 绿色、共享、普惠、包容
-   link: https://www.foreseestudio.top/
-   bgColor: '#f1f1f1'
-   textColor: '#2A3344'
- - name: John‘s Elibrary
-   desc: 人类进步的阶梯
-   link: http://rjgzs.nat300.top/login
+ - name: English website
+   desc: welcome
+   link: http://en.foreseestudio.top/
    bgColor: '#f1f1f1'
    textColor: '#2A3344'
 ```
 :::
-
 <br/>
 
-## 🎉上新推荐
-::: cardList 2
+## 🎉 产品
+::: cardImgList 2
 ```yaml
- - name: John Tao's Blog
-   desc: Stay Hungry. Stay Foolish.
-   link: https://www.draper-crypto.top/
-   bgColor: '#f1f1f1'
-   textColor: '#2A3344'
- - name: Foresee Studio论坛
-   desc: 登高不傲，居低不怨，保持谦卑
-   link: https://www.foreseestudioblog.top/
-   bgColor: '#f1f1f1'
-   textColor: '#2A3344'
- - name: Foresee Studio
-   desc: 绿色、共享、普惠、包容
-   link: https://www.foreseestudio.top/
-   bgColor: '#f1f1f1'
-   textColor: '#2A3344'
- - name: John‘s Elibrary
-   desc: 人类进步的阶梯
-   link: http://rjgzs.nat300.top/login
-   bgColor: '#f1f1f1'
-   textColor: '#2A3344'
+- img: https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img2/202401280110015.png
+  link: https://chat.openai.com/g/g-jN8tD0nGz-visionaryai
+  name: Visionary Ai
+  desc: Openai GPTs # 描述，可选
+  author: 先知科技工作室 # 作者，可选
+  avatar: /img/logo.png # 头像，可选
+- img: https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img2/202401280110015.png
+  link: https://chat.openai.com/g/g-jN8tD0nGz-visionaryai
+  name: Visionary Ai
+  desc: Openai GPTs # 描述，可选
+  author: 先知科技工作室 # 作者，可选
+  avatar: /img/logo.png # 头像，可选
+```
+:::
+<br/>
+
+## 🎉赞助与支持
+::: cardList 4
+```yaml
+- name: Openai
+  desc: 人工智能
+  avatar: https://img.icons8.com/color/48/chatgpt.png # 可选
+  link: https://www.cnblogs.com/miluluyo/ # 可选
+  bgColor: '#f3f2f1' # 可选，默认var(--bodyBg)。颜色值有#号时请添加单引号
+  textColor: '#6854A1' # 可选，默认var(--textColor)
+- name: Microsoft
+  desc: 运行平台
+  avatar: https://img.icons8.com/color/48/microsoft.png
+  link: https://www.microsoft.com/
+  bgColor: '#f3f2f1' # 可选，默认var(--bodyBg)。颜色值有#号时请添加单引号
+  textColor: '#6854A1' # 可选，默认var(--textColor)
+- name: Google
+  desc: 搜索服务
+  avatar: https://img.icons8.com/color/48/google-logo.png
+  link: https://www.google.com/
+  bgColor: '#f3f2f1' # 可选，默认var(--bodyBg)。颜色值有#号时请添加单引号
+  textColor: '#6854A1' # 可选，默认var(--textColor)
+- name: Bing
+  desc: 搜索服务
+  avatar: https://img.icons8.com/color/48/bing.png
+  link: https://www.bing.com/
+  bgColor: '#f3f2f1' # 可选，默认var(--bodyBg)。颜色值有#号时请添加单引号
+  textColor: '#6854A1' # 可选，默认var(--textColor)
+- name: Github
+  desc: 代码服务
+  avatar: https://img.icons8.com/color/96/github--v1.png
+  link: https://github.com/
+  bgColor: '#f3f2f1' # 可选，默认var(--bodyBg)。颜色值有#号时请添加单引号
+  textColor: '#6854A1' # 可选，默认var(--textColor)
+- name: IntelliJ IDEA
+  desc: 编译平台
+  avatar: https://img.icons8.com/color/96/intellij-idea.png
+  link: https://www.jetbrains.com/
+  bgColor: '#f3f2f1' # 可选，默认var(--bodyBg)。颜色值有#号时请添加单引号
+  textColor: '#6854A1' # 可选，默认var(--textColor)
+- name: Vercel
+  desc: 部署平台
+  avatar: https://img.icons8.com/color/96/garmin.png
+  link: https://vercel.com/
+  bgColor: '#f3f2f1' # 可选，默认var(--bodyBg)。颜色值有#号时请添加单引号
+  textColor: '#6854A1' # 可选，默认var(--textColor)
+- name: X
+  desc: 推广平台
+  avatar: https://img.icons8.com/color/96/twitterx--v2.png
+  link: https://vercel.com/
+  bgColor: '#f3f2f1' # 可选，默认var(--bodyBg)。颜色值有#号时请添加单引号
+  textColor: '#6854A1' # 可选，默认var(--textColor)
 ```
 :::
 
+## 🎉运行
+::: cardList 5
+```yaml
+- name: VUE JS
+  desc: 编程语言
+  avatar: https://img.icons8.com/color/96/vue-js.png # 可选
+  bgColor: '#f3f2f1' # 可选，默认var(--bodyBg)。颜色值有#号时请添加单引号
+  textColor: '#6854A1' # 可选，默认var(--textColor)
+- name: JavaScript
+  desc: 编程语言
+  avatar: https://img.icons8.com/color/96/javascript--v1.png
+  bgColor: '#f3f2f1' # 可选，默认var(--bodyBg)。颜色值有#号时请添加单引号
+  textColor: '#6854A1' # 可选，默认var(--textColor)
+- name: H5
+  desc: 编程语言
+  avatar: https://img.icons8.com/color/96/html-5--v1.png
+  bgColor: '#f3f2f1' # 可选，默认var(--bodyBg)。颜色值有#号时请添加单引号
+  textColor: '#6854A1' # 可选，默认var(--textColor)
+- name: CSS
+  desc: 编程语言
+  avatar: https://img.icons8.com/color/96/css3.png
+  bgColor: '#f3f2f1' # 可选，默认var(--bodyBg)。颜色值有#号时请添加单引号
+  textColor: '#6854A1' # 可选，默认var(--textColor)
+- name: Github
+  desc: 代码服务
+  avatar: https://img.icons8.com/color/96/github--v1.png
+  link: https://github.com/
+  bgColor: '#f3f2f1' # 可选，默认var(--bodyBg)。颜色值有#号时请添加单引号
+  textColor: '#6854A1' # 可选，默认var(--textColor)
+- name: Vercel
+  desc: 部署平台
+  avatar: https://img.icons8.com/color/96/garmin.png
+  bgColor: '#f3f2f1' # 可选，默认var(--bodyBg)。颜色值有#号时请添加单引号
+  textColor: '#6854A1' # 可选，默认var(--textColor)
+
+```
+:::
 <br/>
 
 ## ⚡ 反馈与交流

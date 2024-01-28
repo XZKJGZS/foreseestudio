@@ -3,10 +3,10 @@ const htmlModules = require('./config/htmlModules.js');
 
 module.exports = {
 
-  theme: 'vdoing', // 使用依赖包主题
-  // theme: require.resolve('../../vdoing'), // 使用本地主题 (先将vdoing主题文件下载到本地：https://github.com/xugaoyi/vuepress-theme-vdoing)
+  // theme: 'vdoing', // 使用依赖包主题
+  theme: require.resolve('../../vdoing'), // 使用本地主题 (先将vdoing主题文件下载到本地：https://github.com/xugaoyi/vuepress-theme-vdoing)
 
-  title: "Foresee Studio",
+  title: "先知科技工作室",
   description: '绿色、共享、普惠、包容',
   // base: '/', // 默认'/'。如果你想将你的网站部署到如 https://foo.github.io/bar/，那么 base 应该被设置成 "/bar/",（否则页面将失去样式等文件）
   head: [ // 注入到页面<head> 中的标签，格式[tagName, { attrName: attrValue }, innerHTML?]
@@ -59,8 +59,8 @@ module.exports = {
         // ]
       },
       { text: '行业动态', link: '/industry/i0001/' },
+      { text: '产品', link: '/products/p0001/' },
       { text: '资源', link: '/resources/r0001/' },
-      { text: '案例', link: '/case/c0001/' },
       { text: '赞助', link: '/money/m0001/' },
     ],
     sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
@@ -96,7 +96,7 @@ module.exports = {
     // archive: false, // 是否打开归档功能，默认true。 如打开，会做的事情有：1.自动生成归档页面（在@pages文件夹）。如关闭，则反之。
 
     author: { // 文章默认的作者信息，可在md文件中单独配置此信息 String | {name: String, href: String}
-      name: 'Foresee Studio', // 必需
+      name: '先知科技工作室', // 必需
       href: 'https://github.com/XZKJGZS/' // 可选的
     },
     social: { // 社交图标，显示于博主信息栏和页脚栏
@@ -105,7 +105,7 @@ module.exports = {
         {
           iconClass: 'icon-youjian',
           title: '发邮件',
-          link: 'mailto:894072666@qq.com'
+          link: 'mailto:Foresee-Studio@outlook.com'
         },
         {
           iconClass: 'icon-github',
@@ -116,7 +116,7 @@ module.exports = {
     },
     footer: { // 页脚信息
       createYear: 2020, // 博客创建年份
-      copyrightInfo: 'John Tao | <a href="https://github.com/XZKJGZS/foreseestudio/blob/master/README.md">MIT Licens</a>', // 博客版权信息，支持a标签
+      copyrightInfo: '先知科技工作室 | <a href="https://github.com/XZKJGZS/foreseestudio/blob/master/README.md">MIT Licens</a>', // 博客版权信息，支持a标签
     },
     htmlModules,
   },
