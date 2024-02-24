@@ -1,8 +1,8 @@
 ---
 home: true
 heroImage: /img/logo.png
-heroText: 先知科技工作室
-tagline: 绿色 、 共享 、普惠 、包容
+heroText: Orionai
+tagline: 绿色 共享 普惠 可持续
 actionText: 与我们同行
 actionLink: /about/a0001/
 bannerBg: none # auto => 网格纹背景(有bodyBgImg时无背景)，默认 | none => 无 | '大图地址' | background: 自定义背景样式       提示：如发现文本颜色不适应你的背景时可以到palette.styl修改$bannerTextColor变量
