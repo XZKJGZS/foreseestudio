@@ -1,55 +1,28 @@
 ---
 home: true
 heroImage: /img/logo.png
-heroText: Orionai
+heroText: OrionAI
 tagline: 绿色 共享 普惠 可持续
-actionText: 与我们同行
+# actionText: 与我们同行
 actionLink: /about/a0001/
 bannerBg: none # auto => 网格纹背景(有bodyBgImg时无背景)，默认 | none => 无 | '大图地址' | background: 自定义背景样式       提示：如发现文本颜色不适应你的背景时可以到palette.styl修改$bannerTextColor变量
 
 features: # 可选的
-  - title: 工作室动态
-    details: 推陈出新   创造体验
-  - title: 行业动态
-    details: 探索未知   期待惊喜
-  - title: 案例
-    details: 精选案例   启发灵感
+  - title: 关 于
+    details: 深思熟虑  机智如炬
+    link: /about/a0001/ # 可选
+  - title: 技 术
+    details: 代码行行  智慧星辰
+    link: /technology/
+  - title: 产 品
+    details: 解决方案  智能之源
+    link: /products/
+
+# 文章列表显示方式: detailed 默认，显示详细版文章列表（包括作者、分类、标签、摘要、分页等）| simple => 显示简约版文章列表（仅标题和日期）| none 不显示文章列表
+postList: detailed
+# simplePostListLength: 10 # 简约版文章列表显示的文章数量，默认10。（仅在postList设置为simple时生效）
+# hideRightBar: true # 是否隐藏右侧边栏
 ---
-<br>
-<div class="button-container" align="center">
-  <a class="become-sponsor" href="/money/m0001/" target="_blank">赞&emsp;助</a>
-  <a class="become-sponsor" href="https://en.foreseestudio.top/" target="_blank">English Website</a>
-</div>
-
-<style>
-.button-container {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-}
-
-.become-sponsor {
-  padding: 15px 30px;
-  flex-grow: 1;
-  text-decoration: none;
-  border-radius: 5px; /* 调整这个值以匹配您提供的图片的圆角大小 */
-  font-weight: bold;
-  text-align: center;
-  color: #FFFFFF;
-  background-color: #6DAEDB;
-  border: none;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-  transition: all 0.3s ease-in-out;
-}
-
-.become-sponsor:hover {
-  background-color: #59A5D8;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-}
-</style>
-
-<br/>
-
 ## 👋 Can't understand Chinese? Come and try our English website.👉
 ::: cardList 1
 ```yaml
@@ -68,13 +41,13 @@ features: # 可选的
   link: https://chat.openai.com/g/g-jN8tD0nGz-visionaryai
   name: Visionary Ai
   desc: Openai GPTs # 描述，可选
-  author: 先知科技工作室 # 作者，可选
+  author: OrionAI # 作者，可选
   avatar: /img/logo.png # 头像，可选
 - img: https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img2/202401280110015.png
   link: https://chat.openai.com/g/g-jN8tD0nGz-visionaryai
   name: Visionary Ai
   desc: Openai GPTs # 描述，可选
-  author: 先知科技工作室 # 作者，可选
+  author: OrionAI # 作者，可选
   avatar: /img/logo.png # 头像，可选
 ```
 :::

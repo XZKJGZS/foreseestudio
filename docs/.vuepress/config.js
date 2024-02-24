@@ -6,16 +6,13 @@ module.exports = {
   // theme: 'vdoing', // 使用依赖包主题
   theme: require.resolve('../../vdoing'), // 使用本地主题 (先将vdoing主题文件下载到本地：https://github.com/xugaoyi/vuepress-theme-vdoing)
 
-  title: "先知科技工作室",
-  description: '绿色、共享、普惠、包容',
+  title: "奥瑞星深度思维实验室",
+  description: '绿色、共享、普惠、可持续',
   // base: '/', // 默认'/'。如果你想将你的网站部署到如 https://foo.github.io/bar/，那么 base 应该被设置成 "/bar/",（否则页面将失去样式等文件）
   head: [ // 注入到页面<head> 中的标签，格式[tagName, { attrName: attrValue }, innerHTML?]
     ['link', { rel: 'icon', href: '/img/favicon.ico' }], //favicons，资源放在public文件夹
     ['meta', { name: 'keywords', content: 'foresee,foreseestudio,blog,studio' }],
     ['meta', { name: 'theme-color', content: '#11a8cd' }], // 移动浏览器主题颜色
-
-    // ['meta', { name: 'wwads-cn-verify', content: '6c4b761a28b734fe93831e3fb400ce87' }], // 广告相关，你可以去掉
-    // ['script', { src: 'https://cdn.wwads.cn/js/makemoney.js', type: 'text/javascript' }], // 广告相关，你可以去掉
   ],
 
   // 主题配置
@@ -23,7 +20,7 @@ module.exports = {
     nav: [
       { text: '首页', link: '/' },
       {
-        text: '关于我们', link: '/about/a0001/',
+        text: '关于', link: '/about/a0001/',
         // items: [
         //   { text: '主题初衷与诞生', link: '/pages/52d5c3/' },
         //   { text: '介绍', link: '/pages/a2f161/' },
@@ -47,7 +44,7 @@ module.exports = {
         // ]
       },
       {
-        text: '工作室动态', link: '/studio/s0001/',
+        text: '技术', link: '/technology/',
         // items: [
         //   { text: '主题配置', link: '/pages/a20ce8/' },
         //   { text: '首页配置', link: '/pages/f14bdb/' },
@@ -58,14 +55,13 @@ module.exports = {
         //   { text: '评论栏', link: '/pages/ce175c/' },
         // ]
       },
-      { text: '行业动态', link: '/industry/i0001/' },
-      { text: '产品', link: '/products/p0001/' },
+      { text: '产品', link: '/products/' },
+      { text: '影响', link: '/impact/' },
       { text: '资源', link: '/resources/r0001/' },
       { text: '赞助', link: '/money/m0001/' },
     ],
     sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
     logo: '/img/logo.png', // 导航栏logo
-    repo: 'XZKJGZS/foreseestudio', // 导航栏右侧生成Github链接
     searchMaxSuggestions: 10, // 搜索结果显示最大数
     lastUpdated: '上次更新', // 更新的时间，及前缀文字   string | boolean (取值为git提交时间)
 
@@ -96,7 +92,7 @@ module.exports = {
     // archive: false, // 是否打开归档功能，默认true。 如打开，会做的事情有：1.自动生成归档页面（在@pages文件夹）。如关闭，则反之。
 
     author: { // 文章默认的作者信息，可在md文件中单独配置此信息 String | {name: String, href: String}
-      name: '先知科技工作室', // 必需
+      name: '奥瑞星深度思维实验室', // 必需
       href: 'https://github.com/XZKJGZS/' // 可选的
     },
     social: { // 社交图标，显示于博主信息栏和页脚栏
@@ -116,7 +112,7 @@ module.exports = {
     },
     footer: { // 页脚信息
       createYear: 2020, // 博客创建年份
-      copyrightInfo: '先知科技工作室 | <a href="https://github.com/XZKJGZS/foreseestudio/blob/master/README.md">MIT Licens</a>', // 博客版权信息，支持a标签
+      copyrightInfo: '奥瑞星深度思维实验室 | <a href="https://github.com/XZKJGZS/foreseestudio/blob/master/README.md">MIT Licens</a>', // 博客版权信息，支持a标签
     },
     htmlModules,
   },

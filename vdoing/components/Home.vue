@@ -369,7 +369,7 @@ export default {
           margin 1.5rem auto
         .description
           max-width 40rem
-          font-size 1.1rem
+          font-size 1.5rem  //小标题修改字体大小
           line-height 1.3
           opacity 0.9
         .action-button
@@ -501,7 +501,7 @@ export default {
           h1
             font-size 2.5rem
           .description
-            font-size 1rem
+            font-size 1.3rem  // 调整这个值来适应不同屏幕尺寸
         .feature
           a
             h2
@@ -531,7 +531,7 @@ export default {
         h1, .description, .action
           margin 1.2rem auto
         .description
-          font-size 1.2rem
+          font-size 1.2rem    //  这里可以根据需要调整字体大小
         .action-button
           font-size 1rem
           padding 0.6rem 1.2rem
