@@ -39,13 +39,13 @@ postList: detailed
 ```yaml
 - img: https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img2/202401280110015.png
   link: https://chat.openai.com/g/g-jN8tD0nGz-visionaryai
-  name: Visionary Ai
+  name: Betelgeuse
   desc: Openai GPTs # 描述，可选
   author: OrionAI # 作者，可选
   avatar: /img/logo.png # 头像，可选
 - img: https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img2/202401280110015.png
   link: https://chat.openai.com/g/g-jN8tD0nGz-visionaryai
-  name: Visionary Ai
+  name: Betelgeuse
   desc: Openai GPTs # 描述，可选
   author: OrionAI # 作者，可选
   avatar: /img/logo.png # 头像，可选
@@ -59,49 +59,49 @@ postList: detailed
   desc: 人工智能
   avatar: https://img.icons8.com/color/48/chatgpt.png # 可选
   link: https://openai.com/ # 可选
-  bgColor: '#f3f2f1' # 可选，默认var(--bodyBg)。颜色值有#号时请添加单引号
+  bgColor: '#f1f1f1' # 可选，默认var(--bodyBg)。颜色值有#号时请添加单引号
   textColor: '#6854A1' # 可选，默认var(--textColor)
 - name: Microsoft
   desc: 运行平台
   avatar: https://img.icons8.com/color/48/microsoft.png
   link: https://www.microsoft.com/
-  bgColor: '#f3f2f1' # 可选，默认var(--bodyBg)。颜色值有#号时请添加单引号
+  bgColor: '#f1f1f1' # 可选，默认var(--bodyBg)。颜色值有#号时请添加单引号
   textColor: '#6854A1' # 可选，默认var(--textColor)
 - name: Google
   desc: 搜索服务
   avatar: https://img.icons8.com/color/48/google-logo.png
   link: https://www.google.com/
-  bgColor: '#f3f2f1' # 可选，默认var(--bodyBg)。颜色值有#号时请添加单引号
+  bgColor: '#f1f1f1' # 可选，默认var(--bodyBg)。颜色值有#号时请添加单引号
   textColor: '#6854A1' # 可选，默认var(--textColor)
 - name: Bing
   desc: 搜索服务
   avatar: https://img.icons8.com/color/48/bing.png
   link: https://www.bing.com/
-  bgColor: '#f3f2f1' # 可选，默认var(--bodyBg)。颜色值有#号时请添加单引号
+  bgColor: '#f1f1f1' # 可选，默认var(--bodyBg)。颜色值有#号时请添加单引号
   textColor: '#6854A1' # 可选，默认var(--textColor)
 - name: Github
   desc: 代码服务
   avatar: https://img.icons8.com/color/96/github--v1.png
   link: https://github.com/
-  bgColor: '#f3f2f1' # 可选，默认var(--bodyBg)。颜色值有#号时请添加单引号
+  bgColor: '#f1f1f1' # 可选，默认var(--bodyBg)。颜色值有#号时请添加单引号
   textColor: '#6854A1' # 可选，默认var(--textColor)
 - name: IntelliJ IDEA
   desc: 编译平台
   avatar: https://img.icons8.com/color/96/intellij-idea.png
   link: https://www.jetbrains.com/
-  bgColor: '#f3f2f1' # 可选，默认var(--bodyBg)。颜色值有#号时请添加单引号
+  bgColor: '#f1f1f1' # 可选，默认var(--bodyBg)。颜色值有#号时请添加单引号
   textColor: '#6854A1' # 可选，默认var(--textColor)
 - name: Vercel
   desc: 部署平台
   avatar: https://img.icons8.com/color/96/garmin.png
   link: https://vercel.com/
-  bgColor: '#f3f2f1' # 可选，默认var(--bodyBg)。颜色值有#号时请添加单引号
+  bgColor: '#f1f1f1' # 可选，默认var(--bodyBg)。颜色值有#号时请添加单引号
   textColor: '#6854A1' # 可选，默认var(--textColor)
 - name: X
   desc: 推广平台
   avatar: https://img.icons8.com/color/96/twitterx--v2.png
   link: https://twitter.com/
-  bgColor: '#f3f2f1' # 可选，默认var(--bodyBg)。颜色值有#号时请添加单引号
+  bgColor: '#f1f1f1' # 可选，默认var(--bodyBg)。颜色值有#号时请添加单引号
   textColor: '#6854A1' # 可选，默认var(--textColor)
 ```
 :::
@@ -112,33 +112,76 @@ postList: detailed
 - name: VUE JS
   desc: 编程语言
   avatar: https://img.icons8.com/color/96/vue-js.png # 可选
-  bgColor: '#f3f2f1' # 可选，默认var(--bodyBg)。颜色值有#号时请添加单引号
+  bgColor: '#f1f1f1' # 可选，默认var(--bodyBg)。颜色值有#号时请添加单引号
   textColor: '#6854A1' # 可选，默认var(--textColor)
 - name: JavaScript
   desc: 编程语言
   avatar: https://img.icons8.com/color/96/javascript--v1.png
-  bgColor: '#f3f2f1' # 可选，默认var(--bodyBg)。颜色值有#号时请添加单引号
+  bgColor: '#f1f1f1' # 可选，默认var(--bodyBg)。颜色值有#号时请添加单引号
   textColor: '#6854A1' # 可选，默认var(--textColor)
 - name: H5
   desc: 编程语言
   avatar: https://img.icons8.com/color/96/html-5--v1.png
-  bgColor: '#f3f2f1' # 可选，默认var(--bodyBg)。颜色值有#号时请添加单引号
+  bgColor: '#f1f1f1' # 可选，默认var(--bodyBg)。颜色值有#号时请添加单引号
   textColor: '#6854A1' # 可选，默认var(--textColor)
 - name: CSS
   desc: 编程语言
   avatar: https://img.icons8.com/color/96/css3.png
-  bgColor: '#f3f2f1' # 可选，默认var(--bodyBg)。颜色值有#号时请添加单引号
+  bgColor: '#f1f1f1' # 可选，默认var(--bodyBg)。颜色值有#号时请添加单引号
   textColor: '#6854A1' # 可选，默认var(--textColor)
 - name: Github
   desc: 代码服务
   avatar: https://img.icons8.com/color/96/github--v1.png
-  bgColor: '#f3f2f1' # 可选，默认var(--bodyBg)。颜色值有#号时请添加单引号
+  bgColor: '#f1f1f1' # 可选，默认var(--bodyBg)。颜色值有#号时请添加单引号
   textColor: '#6854A1' # 可选，默认var(--textColor)
 - name: Vercel
   desc: 部署平台
   avatar: https://img.icons8.com/color/96/garmin.png
-  bgColor: '#f3f2f1' # 可选，默认var(--bodyBg)。颜色值有#号时请添加单引号
+  bgColor: '#f1f1f1' # 可选，默认var(--bodyBg)。颜色值有#号时请添加单引号
   textColor: '#6854A1' # 可选，默认var(--textColor)
+```
+:::
+
+## ✨ 友链
+::: cardList
+```yaml
+- name: John Tao's Blog
+  desc: 求贤若渴，虚心若愚
+  avatar: /img/logo.png # 可选
+  link: https://www.foreseestudioblog.top/ # 可选
+  bgColor: '#f1f1f1' # 可选，默认var(--bodyBg)。颜色值有#号时请添加单引号
+  textColor: '#6854A1' # 可选，默认var(--textColor)
+- name: Foresee Studio论坛
+  desc: 登高不傲，居低不怨
+  avatar: /img/logo.png # 可选
+  link: https://www.foreseestudioblog.top/
+  bgColor: '#f1f1f1'
+  textColor: '#6854A1'
+- name: Foresee Studio
+  desc: 绿色、共享、普惠、包容
+  avatar: /img/logo.png
+  link: https://www.foreseestudio.top/
+  bgColor: '#f1f1f1'
+  textColor: '#6854A1'
+- name: 7-104网盘
+  desc: 海纳百川
+  avatar: /img/logo.png # 可选
+  link: http://jlstudio.natapp1.cc/ # 可选
+  bgColor: '#f1f1f1' # 可选，默认var(--bodyBg)。颜色值有#号时请添加单引号
+  textColor: '#6854A1' # 可选，默认var(--textColor)
+- name: ChatGPT Next
+  desc: ChatGPT镜像站
+  avatar: /img/logo.png # 可选
+  link: https://www.rjjndsgzs.top/
+  bgColor: '#f1f1f1'
+  textColor: '#6854A1'
+- name: John's Elibrary
+  desc: 专属的电子图书馆
+  avatar: /img/logo.png
+  link: http://rjgzs.nat300.top/login
+  bgColor: '#f1f1f1'
+  textColor: '#6854A1'
+
 ```
 :::
 
@@ -157,19 +200,17 @@ postList: detailed
 
 &emsp;&emsp;或者关注我们的公众号，或直接通过该表单提交反馈：
 
-<table>
-  <tbody>
-    <tr>
-      <td align="center" valign="middle">
-        <img src="https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img2/202401150046188.jpg" class="no-zoom" style="width:120px;margin: 10px;">
-        <p>Foersee Studio 官方公众号</p>
-      </td>
-      <td align="center" valign="middle">
-        <img src="https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/img2/202401150051943.png" class="no-zoom" style="width:120px;margin: 10px;">
-        <p>微信扫码或长按识别，填写内容</p>
-      </td>
-    </tr>
-  </tbody>
-</table>
-
-
+::: cardList 2
+```yaml
+ - name: 反馈表单
+   desc: 点击前往反馈表单界面
+   link: https://feedback.foreseestudiobolg.top/
+   bgColor: '#f1f1f1'
+   textColor: '#2A3344'
+ - name: 微信公众号
+   desc: 点击前往微信公众号
+   link: https://ad.pdb2.com/l/D7b8R6DLP1Cjc8L2
+   bgColor: '#f1f1f1'
+   textColor: '#2A3344'
+```
+:::
